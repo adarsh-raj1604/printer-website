@@ -97,11 +97,11 @@ export default function Home() {
 
   // ISSUE CARDS
   const helpCards = useMemo(() => [
-    { title: "Printer Setup Issues", img: "/assets/images/brother 2.png" },
-    { title: "Printer Offline Issues", img: "/assets/images/brother 5.png" },
-    { title: "WiFi Connection Errors", img: "/assets/images/brother 7 .png" },
-    { title: "Paper Jam Errors", img: "/assets/images/brother 2.png" },
-    { title: "Print Jobs Stuck", img: "/assets/images/brother 6.png" },
+    { title: "Printer Setup Issues", img: "/assets/images/card3.jpg" },
+    { title: "Printer Offline Issues", img: "/assets/images/card3.jpg" },
+    { title: "WiFi Connection Errors", img: "/assets/images/card3.jpg" },
+    { title: "Paper Jam Errors", img: "/assets/images/card3.jpg" },
+    { title: "Print Jobs Stuck", img: "/assets/images/card3.jpg" },
   ], []);
 
   return (
@@ -142,7 +142,7 @@ export default function Home() {
             <img
               src={images[index]}
               loading="lazy"
-              className="w-[320px] md:w-[420px] bg-gradient-to-r from-[#dde7fc] to-[#e4e7ea]"
+              className="w-[320px] md:w-[420px] "
               alt="printer"
             />
           </div>
@@ -150,19 +150,19 @@ export default function Home() {
       </div>
 
       {/* ISSUE CARDS (NO SLIDER NOW) */}
-      <div className="mt-12 px-4 md:px-6">
+      <div className="mt-12 px-4 md:px-6 ">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {helpCards.map((card, i) => (
             <div
               key={i}
-              className="bg-gradient-to-r from-[#dde7fc] to-[#e4e7ea] rounded-2xl shadow-lg p-5"
+              className="rounded-2xl shadow-lg p-5"
             >
               <img
                 src={card.img}
                 loading="lazy"
-                className="w-full h-32 md:h-40 object-cover rounded-xl mb-4"
+                className="w-full h-32  object-cover rounded-xl mb-4"
 alt="printer"               />
-              <h3 className="text-blue-600 font-semibold text-center">
+              <h3 className="text-gray-600 font-semibold text-center">
                 {card.title}
               </h3>
             </div>

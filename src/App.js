@@ -5,10 +5,12 @@ import Driver from "./pages/Driver";
 import Dowbloading from "./pages/Downloading";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
+import Footer from "./pages/Footer";   // 👈 Footer import
 
 function App() {
   return (
     <BrowserRouter>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/setup" element={<Setup />} />
@@ -17,6 +19,9 @@ function App() {
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
       </Routes>
+
+      <Footer />
+
     </BrowserRouter>
   );
 }
