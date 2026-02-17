@@ -161,8 +161,7 @@ export default function Home() {
                 src={card.img}
                 loading="lazy"
                 className="w-full h-32 md:h-40 object-cover rounded-xl mb-4"
-                alt=""
-              />
+alt="printer"               />
               <h3 className="text-blue-600 font-semibold text-center">
                 {card.title}
               </h3>
@@ -186,7 +185,7 @@ export default function Home() {
           {/* 4 STATIC CARDS */}
           <div className="grid md:grid-cols-4 gap-8">
             <div className="bg-white rounded-2xl shadow-md overflow-hidden">
-              <img src="/assets/images/card1.jpg" className="w-full h-40 object-cover" />
+              <img src="/assets/images/card1.jpg" className="w-full h-40 object-cover" alt="printer"  />
               <div className="p-5">
                 <h3 className="text-blue-600 font-semibold mb-2">Download Software</h3>
                 <p className="text-gray-600 text-sm">
@@ -196,7 +195,7 @@ export default function Home() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-md overflow-hidden">
-              <img src="/assets/images/card2.jpg" className="w-full h-40 object-cover" />
+              <img src="/assets/images/card2.jpg" className="w-full h-40 object-cover" alt="printer"  />
               <div className="p-5">
                 <h3 className="text-blue-600 font-semibold mb-2">Connect Printer</h3>
                 <p className="text-gray-600 text-sm">
@@ -206,7 +205,7 @@ export default function Home() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-md overflow-hidden">
-              <img src="/assets/images/card3.jpg" className="w-full h-40 object-cover" />
+              <img src="/assets/images/card3.jpg" className="w-full h-40 object-cover" alt="printer"  />
               <div className="p-5">
                 <h3 className="text-blue-600 font-semibold mb-2">Install Drivers</h3>
                 <p className="text-gray-600 text-sm">
@@ -216,7 +215,7 @@ export default function Home() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-md overflow-hidden">
-              <img src="/assets/images/card4.jpg" className="w-full h-40 object-cover" />
+              <img src="/assets/images/card4.jpg" className="w-full h-40 object-cover" alt="printer"  />
               <div className="p-5">
                 <h3 className="text-blue-600 font-semibold mb-2">Test Printing</h3>
                 <p className="text-gray-600 text-sm">

@@ -47,7 +47,7 @@ const [formData, setFormData] = useState({
     const features = [
         {
             text: "Hassle-free setup and instant connection",
-            img: "/assets/images/slide-1.png",
+            img: "/assets/images/slide-1.png"  ,
             desc: "Quickly connect your printer and complete the setup in just a few simple steps without technical hassle."
         },
         {
@@ -159,7 +159,7 @@ const [formData, setFormData] = useState({
 
                     <div className="md:w-1/2 ">
                         <img
-                            src="/assets/images/slide-2.png"
+                            src="/assets/images/slide-2.png" alt="printer" 
                             className="rounded-2xl shadow-lg bg-gradient-to-r from-[#dde7fc] to-[#e4e7ea]"
                         />
                     </div>
@@ -177,7 +177,7 @@ const [formData, setFormData] = useState({
 
                 <div className="grid md:grid-cols-3 gap-8">
                     <div className="bg-gradient-to-r from-[#dde7fc] to-[#e4e7ea] rounded-2xl shadow-md p-6 hover:shadow-xl transition">
-                        <img src="/assets/images/slide-1.png" className="rounded-xl mb-4" />
+                        <img src="/assets/images/slide-1.png" className="rounded-xl mb-4" alt="printer"  />
                         <h4 className="text-xl font-semibold mb-2">
                             Laptop & Desktop Support
                         </h4>
@@ -193,7 +193,7 @@ const [formData, setFormData] = useState({
                     </div>
 
                     <div className="bg-gradient-to-r from-[#dde7fc] to-[#e4e7ea] rounded-2xl shadow-md p-6 hover:shadow-xl transition">
-                        <img src="/assets/images/slide-2.png" className="rounded-xl mb-4" />
+                        <img src="/assets/images/slide-2.png" className="rounded-xl mb-4" alt="printer"  />
                         <h4 className="text-xl font-semibold mb-2">
                             Driver Download Help
                         </h4>
@@ -209,7 +209,7 @@ const [formData, setFormData] = useState({
                     </div>
 
                     <div className="bg-gradient-to-r from-[#dde7fc] to-[#e4e7ea] rounded-2xl shadow-md p-6 hover:shadow-xl transition">
-                        <img src="/assets/images/slide-1.png" className="rounded-xl mb-4" />
+                        <img src="/assets/images/slide-1.png" className="rounded-xl mb-4" alt="printer"  />
                         <h4 className="text-xl font-semibold mb-2">
                             Network & Setup Issues
                         </h4>
@@ -248,7 +248,7 @@ const [formData, setFormData] = useState({
                         <img
                             src={features[active].img}
                             className="w-[100%] rounded-2xl shadow-lg transition-all duration-300 bg-gradient-to-r from-[#dde7fc] to-[#e4e7ea]"
-                            alt=""
+                            alt="printer" 
                         />
 
                         {/* Tab related content */}
@@ -285,7 +285,7 @@ const [formData, setFormData] = useState({
                     <div className="bg-white w-[520px] rounded-2xl shadow-2xl p-8 text-center">
 
                       <div className="flex items-center justify-center gap-6 mb-6">
-  <img src="/assets/images/slide-1.png" className="w-20" />
+  <img src="/assets/images/slide-1.png" className="w-20" alt="printer"  />
 
   <div className="w-full">
     <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
@@ -301,7 +301,7 @@ const [formData, setFormData] = useState({
     </p>
   </div>
 
-  <img src="/assets/images/printer-working.gif" className="w-20" />
+  <img src="/assets/images/printer-working.gif" className="w-20" alt="printer"  />
 </div>
 
                         <p className="text-xl font-semibold">
