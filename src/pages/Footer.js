@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-10">
 
         {/* TOP SECTION */}
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-6">
 
           {/* BRAND */}
           <div>
@@ -29,16 +29,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* SUPPORT */}
-          <div>
-            <h3 className="text-white font-semibold mb-3">Support</h3>
-            <ul className="space-y-2 text-sm">
-              <li>Installation Help</li>
-              <li>Driver Issues</li>
-              <li>Network Problems</li>
-              <li>Printer Offline</li>
-            </ul>
-          </div>
+          
 
           {/* LEGAL */}
           <div>

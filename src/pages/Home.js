@@ -109,7 +109,7 @@ export default function Home() {
 
       {/* HERO SECTION */}
       <div className="flex items-center py-10 md:py-14 px-6 md:px-10 bg-gradient-to-br from-blue-50 via-purple-50 to-blue-100">
-        <div className="flex flex-col md:flex-row w-full items-center gap-8 bg-white rounded-3xl shadow-xl p-8 md:p-10">
+        <div className="flex flex-col md:flex-row w-full items-center gap-8 ">
 
           {/* LEFT */}
           <div className="w-full md:w-1/2">
